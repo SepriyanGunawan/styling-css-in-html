@@ -66,3 +66,11 @@ h3.jdl {
   font-size: 60px;
   color: #fff;
 }
+/*  efek hover dengan menerapkan pseudo class */
+section#majemuk button[type='button'] {
+  background-color: rgb(209, 158, 39);
+  transition: 0.3s;
+}
+section#majemuk button[type='button']:hover {
+  background-color: #6fc00b;
+}
