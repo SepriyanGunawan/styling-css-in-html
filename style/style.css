@@ -39,7 +39,7 @@ button {
   margin: 25px 20px;
   height: 30px;
 }
-/* selector majemuk */
+/* selector makomplek */
 section > p > span {
   font-weight: 700;
   color: rgb(137, 76, 26);
@@ -50,7 +50,19 @@ section > div:nth-child(2) {
   height: 30px;
   margin: 30px 20px;
 }
+h1 ~ p {
+  background-color: rgb(246, 194, 92);
+}
+/* selektor majemuk */
+section#majemuk {
+  background-color: aquamarine;
+}
+
 a[target='_blank'] {
   color: #fff;
   font-size: 20px;
+}
+h3.jdl {
+  font-size: 60px;
+  color: #fff;
 }
