@@ -17,3 +17,7 @@
   background-color: var(--bg-color);
   width: 80%;
 }
+p {
+  font-size: 30px;
+  color: blue;
+}
