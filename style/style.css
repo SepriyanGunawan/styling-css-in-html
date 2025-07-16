@@ -59,7 +59,7 @@ section#majemuk {
 }
 
 a[target='_blank'] {
-  color: #fff;
+  color: #240202;
   font-size: 20px;
 }
 h3.jdl {
@@ -73,4 +73,12 @@ section#majemuk button[type='button'] {
 }
 section#majemuk button[type='button']:hover {
   background-color: #6fc00b;
+}
+/* before css  */
+a::before {
+  content: '🤖🤖🔗🔗🔗';
+}
+/* after css */
+a::after {
+  content: '>>>>';
 }
