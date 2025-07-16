@@ -1,5 +1,19 @@
+/* default css */
 * {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+}
+/* variabel custom css */
+:root {
+  --primary-color: #661c1c;
+  --text-body: 50px;
+  --bg-color: #6fc00b;
+}
+/* use varibel css */
+.custom {
+  color: var(--primary-color);
+  font-size: var(--text-body);
+  background-color: var(--bg-color);
+  width: 80%;
 }
