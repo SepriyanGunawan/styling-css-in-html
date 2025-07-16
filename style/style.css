@@ -39,3 +39,18 @@ button {
   margin: 25px 20px;
   height: 30px;
 }
+/* selector majemuk */
+section > p > span {
+  font-weight: 700;
+  color: rgb(137, 76, 26);
+}
+section > div:nth-child(2) {
+  background-color: #6fc00b;
+  width: 100px;
+  height: 30px;
+  margin: 30px 20px;
+}
+a[target='_blank'] {
+  color: #fff;
+  font-size: 20px;
+}
