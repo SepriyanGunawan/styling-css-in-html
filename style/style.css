@@ -75,10 +75,30 @@ section#majemuk button[type='button']:hover {
   background-color: #6fc00b;
 }
 /* before css  */
-a::before {
+section a::before {
   content: '🤖🤖🔗🔗🔗';
 }
 /* after css */
-a::after {
+section a::after {
   content: '>>>>';
+}
+/* body {
+  position: relative;
+} */
+/* position absolut relativ and sticky */
+header {
+  position: sticky;
+  top: 0;
+  padding: 20px;
+  background-color: #cae8ca;
+  border: 2px solid #4caf50;
+}
+header a {
+  position: relative;
+  right: -300px;
+}
+header button {
+  position: absolute;
+  right: 0;
+  top: -15px;
 }
