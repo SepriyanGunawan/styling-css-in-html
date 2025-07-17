@@ -95,7 +95,8 @@ header {
 }
 header a {
   position: relative;
-  right: -300px;
+  padding: 0 20px;
+  right: -400px;
 }
 header button {
   position: absolute;
@@ -108,7 +109,7 @@ header button {
   padding: 15px;
   background-color: cadetblue;
   border-radius: 50%;
-  position: sticky;
+  position: fixed;
   bottom: 0;
   left: 0;
 }
